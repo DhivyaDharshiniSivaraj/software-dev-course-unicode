@@ -12,13 +12,9 @@ console.log(`The word is ${wordFromCodePoints}`);
 
 // Task 3
 let inputString2 = "Launch";
-let codePoint1 = inputString2.charCodeAt(0);
-let codePopint2 = inputString2.charCodeAt(5);
-
-let str = "Launch";
-let first = str.charCodeAt(0);
-let last = str.charCodeAt(5);
-let swappedString = String.fromCharCode(last) + str[1] + str[2] + str[3] + str[4] + String.fromCharCode(first);
+let first = inputString2.charCodeAt(0);
+let last = inputString2.charCodeAt(5);
+let swappedString = String.fromCharCode(last) + inputString2[1] + inputString2[2] + inputString2[3] + inputString2[4] + String.fromCharCode(first);
 console.log(`The swapped string is ${swappedString}`);
 
 
